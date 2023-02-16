@@ -8,11 +8,11 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.AudioInput</string>
+    <string>com.yourcompany.RedDotAudio</string>
     <key>CFBundleName</key>
-    <string>Audio Input</string>
+    <string>RedDotAudio</string>
     <key>CFBundleDisplayName</key>
-    <string>Audio Input</string>
+    <string>RedDotAudio</string>
     <key>CFBundlePackageType</key>
     <string>BNDL</string>
     <key>CFBundleSignature</key>
@@ -29,17 +29,17 @@
     <array>
       <dict>
         <key>name</key>
-        <string>yourcompany: Audio Input</string>
+        <string>yourcompany: RedDotAudio</string>
         <key>description</key>
-        <string>Audio Input</string>
+        <string>RedDotAudio</string>
         <key>factoryFunction</key>
-        <string>AudioInputAUFactory</string>
+        <string>RedDotAudioAUFactory</string>
         <key>manufacturer</key>
         <string>Manu</string>
         <key>type</key>
         <string>aufx</string>
         <key>subtype</key>
-        <string>I7pz</string>
+        <string>Zorq</string>
         <key>version</key>
         <integer>65536</integer>
         <key>resourceUsage</key>

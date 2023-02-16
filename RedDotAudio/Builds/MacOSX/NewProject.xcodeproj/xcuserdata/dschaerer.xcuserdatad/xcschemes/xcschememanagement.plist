@@ -4,30 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Audio Input - AU.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Audio Input - All.xcscheme_^#shared#^_</key>
+		<key>NewProject - AU.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Audio Input - Shared Code.xcscheme_^#shared#^_</key>
+		<key>NewProject - All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
-		<key>Audio Input - Standalone Plugin.xcscheme_^#shared#^_</key>
+		<key>NewProject - Shared Code.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>NewProject - Standalone Plugin.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Audio Input - VST3.xcscheme_^#shared#^_</key>
+		<key>NewProject - VST3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 </dict>
