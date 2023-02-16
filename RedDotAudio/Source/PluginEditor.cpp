@@ -16,6 +16,12 @@ NewProjectAudioProcessorEditor::NewProjectAudioProcessorEditor (NewProjectAudioP
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
     setSize (400, 300);
+    
+    redColour = juce::Colours::red;
+    circlePath.addEllipse(0.0f, 0.0f, getWidth(), getHeight());
+    circleComponent.setOpaque(true);
+    circleComponent.setColour(juce::Label::backgroundColourId, juce::Colours::lightgrey);
+    addAndMakeVisible(circleComponent);
 }
 
 NewProjectAudioProcessorEditor::~NewProjectAudioProcessorEditor()
@@ -37,4 +43,5 @@ void NewProjectAudioProcessorEditor::resized()
 {
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
+    circleComponent.setBounds(getLocalBounds());
 }

@@ -156,6 +156,22 @@ void NewProjectAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
 
         // ..do something to the data...
     }
+    
+    // Change the color of the circle component based on the number of samples
+    if (buffer.getNumSamples() > 0)
+    {
+        editor->setCircleColor(juce::Colours::red);
+    }
+    else
+    {
+        editor->setCircleColor(juce::Colours::lightgrey);
+    }
+
+    for (int channel = totalNumInputChannels; channel < totalNumOutputChannels; ++channel)
+    {
+        auto* channelData = buffer.getWritePointer (channel);
+        // ..do something to the data...
+    }
 }
 
 //==============================================================================

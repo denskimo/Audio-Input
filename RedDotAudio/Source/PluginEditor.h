@@ -23,11 +23,17 @@ public:
     //==============================================================================
     void paint (juce::Graphics&) override;
     void resized() override;
+    
+    void setCircleColor(juce::Colour color);
 
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
     NewProjectAudioProcessor& audioProcessor;
+    
+    juce::Colour redColour;  // added for the red colour of the circle
+    juce::Path circlePath;   // added for the path of the circle
+    juce::Component circleComponent; // added for the circle component
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (NewProjectAudioProcessorEditor)
 };
