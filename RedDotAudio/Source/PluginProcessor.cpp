@@ -90,6 +90,18 @@ void NewProjectAudioProcessor::changeProgramName (int index, const juce::String&
 {
 }
 
+void NewProjectAudioProcessor::setCircleColor(juce::Colour color)
+{
+    if (editor != nullptr)
+    {
+        auto* castEditor = dynamic_cast<RedDotAudioProcessorEditor*>(editor.get());
+        if (castEditor != nullptr)
+        {
+            castEditor->setCircleColor(color);
+        }
+    }
+}
+
 //==============================================================================
 void NewProjectAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {

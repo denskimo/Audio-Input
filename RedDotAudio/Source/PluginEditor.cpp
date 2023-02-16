@@ -24,6 +24,11 @@ NewProjectAudioProcessorEditor::NewProjectAudioProcessorEditor (NewProjectAudioP
     addAndMakeVisible(circleComponent);
 }
 
+void NewProjectAudioProcessorEditor::setCircleColor(juce::Colour color)
+{
+    circleComponent.setColour(juce::Label::backgroundColourId, color);
+}
+
 NewProjectAudioProcessorEditor::~NewProjectAudioProcessorEditor()
 {
 }
